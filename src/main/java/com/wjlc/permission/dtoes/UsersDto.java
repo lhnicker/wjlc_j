@@ -2,7 +2,9 @@ package com.wjlc.permission.dtoes;
 
 import java.security.Timestamp;
 
-public class UsersDto {
+import com.wjlc.common.*;
+
+public class UsersDto extends BaseDto {
 	// ***Private members***
 	private long UserID;
 	private String UserMobile;
