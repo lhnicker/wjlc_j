@@ -7,6 +7,7 @@ import com.wjlc.permission.dtoes.GetUserParam;
 import com.wjlc.permission.dtoes.UsersDto;
 
 @RestController
+@RequestMapping(value = "/permission")
 public class UsersController {
 	
 	@RequestMapping(value = "/userinfo")
