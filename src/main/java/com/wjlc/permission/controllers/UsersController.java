@@ -4,8 +4,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.wjlc.common.BaseDto;
-import com.wjlc.permission.dtoes.GetUserParam;
-import com.wjlc.permission.dtoes.UsersDto;
+import com.wjlc.permission.dto.GetUserParam;
+import com.wjlc.permission.dto.UsersDto;
 
 @RestController
 @RequestMapping(value = "/permission")

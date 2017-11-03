@@ -1,4 +1,4 @@
-package com.wjlc.permission.pojoes;
+package com.wjlc.permission.entity;
 
 import java.security.Timestamp;
 

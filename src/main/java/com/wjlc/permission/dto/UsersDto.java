@@ -1,4 +1,4 @@
-package com.wjlc.permission.dtoes;
+package com.wjlc.permission.dto;
 
 import java.security.Timestamp;
 
