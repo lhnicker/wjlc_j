@@ -20,7 +20,7 @@ public class UsersController {
 	
 	private Logger log = LoggerFactory.getLogger(UsersController.class);
 	
-	@RequestMapping(value = "/userinfo", method = {RequestMethod.POST})
+	@RequestMapping(value = "/userinfo", method = {RequestMethod.POST, RequestMethod.GET})
 	public BaseDto GetUserInfo(GetUserParam getUserParam) {
 		UsersDto usersDto = new UsersDto();
 		return new BaseDto().InitSuccObj("success", usersDto);
