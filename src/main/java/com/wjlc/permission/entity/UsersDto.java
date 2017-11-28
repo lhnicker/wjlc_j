@@ -2,13 +2,10 @@ package com.wjlc.permission.entity;
 
 import java.security.Timestamp;
 
-/**
- * Author: LiuHan
- * Date: 2017/11/03
- */
-public class UsersPojo {
-	
-	//***Private members***
+import com.wjlc.common.*;
+
+public class UsersDto extends BaseDto {
+	// ***Private members***
 	private long UserID;
 	private String UserMobile;
 	private String UserName;
@@ -18,22 +15,6 @@ public class UsersPojo {
 	private Timestamp RegistTime;
 	private short IsActive;
 	private Timestamp CreateTime;
-
-	public UsersPojo() {
-	}
-
-	public UsersPojo(long userID, String userMobile, String userName, String nickName, short sex, short age,
-			Timestamp registTime, short isActive, Timestamp createTime) {
-		this.UserID = userID;
-		this.UserMobile = userMobile;
-		this.UserName = userName;
-		this.NickName = nickName;
-		this.Sex = sex;
-		this.Age = age;
-		this.RegistTime = registTime;
-		this.IsActive = isActive;
-		this.CreateTime = createTime;
-	}
 
 	/**
 	 * @return the userID

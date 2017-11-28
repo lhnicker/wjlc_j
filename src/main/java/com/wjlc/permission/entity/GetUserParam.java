@@ -1,4 +1,4 @@
-package com.wjlc.permission.dto;
+package com.wjlc.permission.entity;
 
 public class GetUserParam {
 	private long UserID;

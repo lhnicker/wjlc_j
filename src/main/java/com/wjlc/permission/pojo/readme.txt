@@ -1,0 +1,1 @@
+permission数据库实体类
